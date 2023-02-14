@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.github.malickgalant.startapp;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv2 = findViewById(R.id.textViewLink2);
         tv2.setMovementMethod(LinkMovementMethod.getInstance());
 
-        String html2 = "<p>Hyperlink** on portal <a href=\"https://www.dell.com\" target=\"_blank\">dell portal</a> </p><p>idem <a href=\"https://www.theguardian.com\" target=\"_blank\">The Guardian</a></p><p>Not hyperlink on portal https://www.dell.com</p><p>idem https://www.reddit.com</p>";
+        String html2 = "<p>Hyperlink** on portal <a href=\"https://www.adball.online\" target=\"_blank\">Login</a> </p><p>Best<a href=\"https://github.com/MalickaGalant/StartApp\" target=\"_blank\">Guardians</a></p><p>Not hyperlink on portal https://www.adball.online</p><p>idem https://www.reddit.com</p>";
         TextView tv3 = findViewById(R.id.textViewLink3);
         tv3.setText(getHtml(html2));
         tv3.setMovementMethod(LinkMovementMethod.getInstance());
